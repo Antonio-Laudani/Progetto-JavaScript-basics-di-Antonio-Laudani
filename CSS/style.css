@@ -3,14 +3,15 @@
     padding: 0;
     box-sizing: border-box;
   }
-  body {
+ html, body {
     background-color: #AFEEEE;
+    overflow-x: hidden;
   }
 
 #position {
     position: absolute;
     margin-top: 150px;
-    left: 30%;
+    left: 30%; 
   }
   
   #pokedex {
@@ -143,7 +144,7 @@
     width: 80px;
     height: 50px;
     background-color: green;
-    position: absolute;
+   position: absolute; 
     bottom: 15px;
     left: 55px;
     border-radius: 10px;
@@ -497,3 +498,7 @@
     right: 40px;
     box-shadow: inset 1px 1px 5px 1px gray;
   }
+
+
+
+

@@ -1,0 +1,153 @@
+
+/* Media Query per Schermi Mobili */
+@media screen and (max-width: 600px) {
+   
+    #position {
+        left: 20%;
+        transform: translateX(-50%);
+    }
+
+    #pokedex {
+        height: 300px; /* Riduci l'altezza per schermi più piccoli */
+        width: 175px; /* Riduci la larghezza per schermi più piccoli */
+    }
+
+    #screen {
+        
+        height: 120px;
+        width: 140px;
+    }
+
+    #display {
+        height: 100px;
+        width: 120px;
+        top: 10px;
+        left: 10px;
+    }
+
+    #redButton1, #redButton2, #redCircle {
+        display: none;
+    }
+
+    #greenRectangle{
+        width: 60px; /* Riduci la larghezza per schermi più piccoli */
+        height: 40px; /* Riduci l'altezza per schermi più piccoli */
+        background-color: green;
+        border-radius: 8px; /* Riduci il raggio del bordo */
+        border: black solid 1px;
+        margin-top: 260px; /* Distanza dal contenuto sottostante */
+         margin-left: 10px; /*Centratura orizzontale */
+        /*margin: right:;  Centratura orizzontale */
+        position: relative; /* Utilizza il posizionamento relativo */
+        left: 0; /* Reset del posizionamento orizzontale */
+        
+    }
+
+    #dPad {
+        width: 60px;
+        height: 60px;
+        bottom: 20px;
+        left: 85px; /* Riduci la distanza orizzontale per schermi più piccoli */
+    }
+
+    .padbtn {
+        width: 20px;
+        height: 20px;
+    }
+
+    #lidClosed {
+        top: 60px; /* Riduci la distanza dall'alto per schermi più piccoli */
+        height: 250px; /* Riduci l'altezza per schermi più piccoli */
+        width: 175px; /* Riduci la larghezza per schermi più piccoli */
+    }
+
+
+    #lidOpen {
+        top: 50px; /* Riduci la distanza dall'alto per schermi più piccoli */
+        height: 300px; /* Riduci l'altezza per schermi più piccoli */
+        width: 175px; /* Riduci la larghezza per schermi più piccoli */
+        left: 175px; /* Posizionamento per evitare accavallamenti */
+    }
+
+    #quoteScreen {
+        top: 20px; /* Riduci la distanza dall'alto per schermi più piccoli */
+        height: 100px; /* Riduci l'altezza per schermi più piccoli */
+        width: 130px; /* Riduci la larghezza per schermi più piccoli */
+    }
+
+    #blueButtons {
+        height: 60px;
+        width: 130px; /* Riduci la larghezza per schermi più piccoli */
+        margin-top: 15px;
+    }
+
+    .hline {
+        width: 130px;
+        background-color: black;
+        height: 1px;
+        position: absolute;
+        margin: 30px 0;
+        box-sizing: border-box;
+      }
+      
+      .vline {
+        height: 60px;
+        background-color: black;
+        width: 1px;
+        box-sizing:border-box;
+      }
+
+      .a, .b, .c {
+        left: 30px; /* Riduci la distanza per schermi più piccoli */
+    }
+
+    .b {
+        left: 60px;
+    }
+
+    .c {
+        left: 95px;
+    }
+     
+    .d{
+        display: none;
+    }
+
+    #grayButtons {
+        width: 70px; /* Riduci la larghezza per schermi più piccoli */
+        
+    }
+    .grayDiv{
+        left: 35px;
+    }
+    
+
+    #one, #two {
+        width: 60px; /* Riduci la larghezza per schermi più piccoli */
+        height: 25px; /* Riduci l'altezza per schermi più piccoli */
+        font-size: 0.7rem;
+    }
+
+    #two{
+        left: 100px;
+        align-items: center;
+        line-height: 25px; /* Centra il testo verticalmente */
+    }
+
+    #goldButton {
+        bottom: 50px; /* Riduci la distanza dal fondo per schermi più piccoli */
+        right: 25px; /* Riduci la distanza dal lato destro per schermi più piccoli */
+    }
+
+    .thinButton {
+        width: 20px;
+        height: 5px;
+    }
+    #firstButton{
+left: 110px;
+    }
+
+    #secondButton{
+        left: 140px;
+    }
+}
