@@ -1,6 +1,10 @@
 
 /* Media Query per Schermi Mobili */
 @media screen and (max-width: 600px) {
+
+    html, body{
+        overflow-x: hidden;
+    }
    
     #position {
         left: 20%;
