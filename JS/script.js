@@ -3,13 +3,28 @@ const lidClosed = document.getElementById('lidClosed');
 const lidOpen = document.getElementById('lidOpen');
 const trapezoidBorder = document.getElementById('trapezoidLidBorder');
 const trapezoidLid = document.getElementById('trapezoidLid');
-const display = document.getElementById('display');
-const greenRectangle = document.getElementById('greenRectangle');
+const display = document.getElementById('display'); // Manteniamo il display
 const quoteScreen = document.getElementById('quoteScreen');
 const blackButton1 = document.getElementById('one');
 const blackButton2 = document.getElementById('two');
-const nextButton = document.querySelector('.btn1');
-const prevButton = document.querySelector('.btn2');
+
+// Crea e aggiungi dinamicamente il greenRectangle e i pulsanti + e -
+const verticalR = document.getElementById('verticalR');
+
+// Crea il greenRectangle
+const greenRectangle = document.createElement('div');
+greenRectangle.id = 'greenRectangle';
+document.getElementById('pokedex').appendChild(greenRectangle);
+
+// Crea i pulsanti + e - e aggiungili a verticalR
+const nextButton = document.createElement('button');
+nextButton.classList.add('padbtn', 'btn1');
+nextButton.textContent = '+';
+const prevButton = document.createElement('button');
+prevButton.classList.add('padbtn', 'btn2');
+prevButton.textContent = '-';
+verticalR.appendChild(nextButton);
+verticalR.appendChild(prevButton);
 
 let currentPokemonId = null; // Inizializza a null per partire con schermo nero
 
